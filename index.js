@@ -19,7 +19,7 @@ var IS_NATIVE_CODE_REGEX = /\{\s*\[native code\]\s*\}/g,
 var UNICODE_CHARS = {
     '<'     : '\\u003C',
     '>'     : '\\u003E',
-    '/'     : '\\u002F',
+    '/'     : '\\/',
     '\u2028': '\\u2028',
     '\u2029': '\\u2029'
 };

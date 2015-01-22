@@ -61,7 +61,7 @@ serialize({
 The above will produce the following, HTML-escaped output which is safe to put into an HTML document as it will not cause the inline script element to terminate:
 
 ```js
-'{"haxorXSS":"\\u003C\\u002Fscript\\u003E"}'
+'{"haxorXSS":"\\u003C\\/script\\u003E"}'
 ```
 
 ## License
